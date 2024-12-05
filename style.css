@@ -1,0 +1,250 @@
+.side-menu {
+    width: 200px;
+    background-color: rgb(120, 120, 120);
+    height: 25px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.photo {
+    width: 250px;
+    height: auto;
+}
+
+.text {
+    flex: 1;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+    column-gap: 10px;
+    height: 250px;
+    padding: 75px;
+}
+
+.no-dots-list {
+    list-style: none;
+}
+
+.background {
+    background-image: url('images/Ryan-Reynolds');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    opacity: 60%;
+}
+
+.text-container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.progress {
+    background-color: white;
+    width: 600px;
+}
+
+.skill {
+    background-color: dodgerblue;
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.htmlc {
+    width: 70%;
+}
+
+.pythonkicad {
+    width: 80%;
+}
+
+.autocadmatlab {
+    width: 90%;
+}
+
+
+
+h2 {
+    color: grey;
+    font-weight: 5000;
+    font-size: 35px;
+    font-family: helvetica;
+    height: 30px;
+}
+
+h3 {
+    color: grey;
+    font-weight: 3500;
+    font-size: 30px;
+    font-family: helvetica;
+    height: 50px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+
+ul {
+    font-family: arial, sans-serif;
+    height: 175px;
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    display: flex;
+    list-style: none;
+}
+
+
+
+
+
+.center-vertical1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 25px;
+}
+
+.center-vertical2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    font-family: arial, sans-serif;
+    height: 50px;
+    padding: 25px;
+}
+
+.center-vertical3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px;
+}
+
+.center-vertical4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    font-family: arial, sans-serif;
+    height: 20px;
+    padding: 5px;
+    color: grey;
+}
+
+.simpletext {
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    font-family: arial, sans-serif;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .container3 {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: start;
+    }
+
+    .text-container {
+        padding: 10px;
+    }
+
+    .center-vertical1 {
+        flex-direction: column;
+        height: auto;
+        padding: 35px;
+    }
+
+    .center-vertical2 {
+        flex-direction: column;
+        height: auto;
+        padding: 35px;
+    }
+
+    .center-vertical3 {
+        flex-direction: column;
+        height: auto;
+        padding: 150px;
+    }
+}
